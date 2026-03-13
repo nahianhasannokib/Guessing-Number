@@ -1,0 +1,153 @@
+What is Programming?
+
+Programming is a way to instruct the computer to perform various tasks.
+
+
+Modules:
+
+A module is a file containing code written by somebody else(usually) which can be imported and used in our programs.
+
+Pip:
+
+Pip is the package manager for Python.
+
+You can use Pip to install a module on your System.
+Example: Pip install flask(installs flask module in system)
+
+Types of modules:
+
+There are two types of modules in python---:
+
+1.Built in modules---> Pre Installed in Python
+Examples: os,abc etc
+2.External Modules---> Need to Install using Pip
+Example: tensorflow,flask etc
+
+Using Python as a Calculator:
+We can use python as a calculator by typing "Python"
+on the terminal
+
+---->This Opens REPL or Read Evaluate Print Loop
+
+Comments:
+Comments are used to write something which the programmer does not want to execute.(Can be used to mark author name,date etc)
+
+Types of Comments:
+Two types of comments in Python
+
+1.Single Line Comments---> Written using #
+2.Multi Line Comments----> Written using Open(''')  
+Close(''')
+
+Variables:
+A variable is the name given to a memory location in a program.
+
+---->Variable=Container to store a value.
+---->Keywords=Reserved words in Python
+---->Identifiers=Class/function/variable name
+
+For example:
+
+a=30
+b="Nokib"
+c=71.22
+
+In Python, an identifier is a name given to entities like variables, functions, classes, modules, or other objects. It serves to uniquely identify these entities within your code, allowing you to refer to and manipulate them. 
+
+ 
+Data Types:
+Primarily there are following data types in python
+
+1.Integers
+2.Floating Point numbers
+3.Strings
+4.Booleans
+5.None
+
+Rules for defining a Variable name:
+1.A variable name can contain alphabets, digits and underscores.
+2.A variable name can only start with an alphabet.
+3.A variable name can not stat with a digit.
+4.No while space is allowed to be used inside a variable name.
+5.Variable is Case Sensitive.
+
+Examples:
+nokib,one8,seven_,_seven er
+
+Operators:
+
+1.Arithmetic Operators----> +, -, *, / etc.
+2.Assignment Operators----> =, +=, -= etc.
+3.Comparison Operators-----> ==, >, >=, <, <=, != etc( Returns Boolean Value)
+4.Logical Operators------> and, or, not (Compares Boolean values)
+
+Type() function and typecasting:
+
+Type function is used to find the data type of a given variable in python.
+
+a=31
+type(a)------->class<int>
+
+b="31"
+type(b)------->class<str>
+
+A number can be converted into a string and vice versa(if possible)
+
+There are many functions to convert one data type into another
+
+Str(31)------>"31"(Integer to string conversion)
+int("32")----->32(String to Integer conversion)
+float(32)------>32.0(Integer to Float conversion)
+
+Here,"31" is a String literal and 31 is a numeric literal.
+
+input() function:
+This function allows the user to take input from  the keyboard as a string.
+
+a=input("Enter your name")--------->If a is "nokib",the user entered nokib
+
+It is important to note that the output of input is always String(even if the number if entered)
+
+String:
+-------
+String is a data type in Python.
+
+String is a sequence of characters unclosed in quotes.
+
+We can primarily, write a string in these three ways
+1.Single quoted strings-------> a='Nokib'
+2.Double quoted strings-------> b=''Nokib''
+3.Triple quoted strings-------> c='"Nokib"'
+
+b="Nokib's"
+c='Nokib"s'
+d='''Nokib"s and Nokib's'''
+e='''Nokib"s and 
+    Nokib's'''
+
+String Slicing:
+--------------- 
+A string in Python can be sliced for getting a part of the string.
+
+concatenating string:
+greeting="Good Morning, "
+name="Happy"
+c=greeting+name
+
+print(c)
+
+Output:Good Morning, Happy
+
+print(name[0])
+
+Output:H
+
+name[3]="d"--->does not work
+
+print(name[0:3])
+
+output:Hap
+
+print(name[1:3])
+
+output: app

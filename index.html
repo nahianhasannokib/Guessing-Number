@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AI Mind Reader</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🧠 AI Mind Reader</h1>
+
+<p id="instruction">
+Think of a number between <b>1 and 100</b>
+</p>
+
+<button class="start" onclick="startGame()">Start</button>
+
+<div id="questionArea" class="hidden">
+
+<p id="question"></p>
+
+<button class="yes" onclick="answerYes()">Yes</button>
+<button class="no" onclick="answerNo()">No</button>
+
+</div>
+
+<p class="result" id="result"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
